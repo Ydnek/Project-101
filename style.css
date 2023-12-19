@@ -155,8 +155,7 @@ body{
         padding: 0 40px;
         position: sticky;
         z-index: 999;
-        top: auto;
-        left: 0;
+        
     }
     body{
         width: 100%;
@@ -170,6 +169,10 @@ body{
     h2{
         font-size: 16px;
         line-height: 24px;
+        color: #FFBD59;
+    }
+    h3{
+        font-size: 14px;
         color: #FFBD59;
     }
     
@@ -194,5 +197,23 @@ body{
     }
     .section-m1{
         margin: 30px;
+    }
+
+    #head{
+        display: block;
+        text-align: center;
+        padding: 3px 1px;
+        box-shadow: 0 1px 1px;
+    }
+
+    #hero button{
+        background-color: transparent;
+        border-color: white;
+        border-radius: 5px;
+        padding: 14px 50px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 12px;
     }
 }
