@@ -146,8 +146,8 @@ body{
         line-height: 30px;
     }
     .logo{
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
     }
     #header{
         display: flex;
@@ -160,7 +160,7 @@ body{
     }
     body{
         width: 100%;
-        background-image: url(img/Background/Coffee\ Cup\ Background\ Youtube\ Thumbnail.png);
+        background-image: url(img/Background/Coffee\ Cup\ Background\ Youtube\ Thumbnail\ 500\ x\ 720.png);
         height: 120vh;
         background-position: top 25% right 50%;
         background-size: cover;
@@ -194,17 +194,15 @@ body{
     }
     
     .section-p1{
-        padding: 40px;
+        padding: 20px;
     }
     .section-m1{
-        margin: 40px;
+        margin: 20px;
     }
 
     #head{
         display: block;
         text-align: center;
-        align-items : center;
-        justify-content: space-between;
         padding: 3px 1px;
         /*
         box-shadow: 0 1px 1px; */
@@ -219,5 +217,11 @@ body{
         cursor: pointer;
         font-weight: 400;
         font-size: 12px;
+    }
+
+    #navbar li{
+        list-style: none;
+        padding: 0 10px;
+        position: relative;
     }
 }
